@@ -1,0 +1,14 @@
+{
+  "name": "string-calculator-kata-template-node",
+  "version": "1.0.0",
+  "description": "A string calculator kata template for node",
+  "main": "./src/calculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
