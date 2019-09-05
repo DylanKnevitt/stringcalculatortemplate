@@ -8,7 +8,7 @@ Practicing the String Calculator Kata
 2. Run ```git checkout -b {name}-attempt-1 master```
 3. Run ```npm test```, this should give you the output from fig.1
 4.   Write a test first in the .\src\calculator.spec.js file, run ```npm test```, then write the implementation in .\src\calculator.js. Rinse and repeat. (I have included the first test that is failing for demonstration purposes).
-5. For ease, you can run jest calculator --watch. This will rerun the test whenever you save either file.
+5. For ease, you can run ```npm run test -- --watch```. This will rerun the test whenever you save either file.
 6. After 15 minutes, run ```git add ./``` then ```git commit -m "Attempt {n}"``` and finally ```git checkout -b {name}-attempt-{n+1} master```
 7. Start from step 3
 
